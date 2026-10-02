@@ -26,13 +26,11 @@ export const sections = [
   { id: "experience", title: "Experience", nav: "Experience" },
   // { id: "awards", title: "Awards", nav: "Awards" },
   { id: "service", title: "Academic Service", nav: "Service" },
-  { id: "projects", title: "Projects", nav: "Projects" }
+  // { id: "projects", title: "Projects", nav: "Projects" }
 ];
 
 export const publicationGroups = [
-  "Machine Learning",
-  "Human-Computer Interaction",
-  "Data Systems",
-  "Digital Humanities",
-  "Other"
+  "Drug-Drug Interaction Prediction",
+  "Drug-miRNA Association Prediction",
+  "Natural Language Processing"
 ];

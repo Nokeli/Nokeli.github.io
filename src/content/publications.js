@@ -1,96 +1,93 @@
 export const publications = [
   {
-    title: "Reliable Agents for Scientific Discovery",
-    venue: "ICML 2026",
+    title: "Dual-Channel Structure-Aware Transformer Framework for Drug-Drug Interaction Prediction",
+    venue: "IEEE Journal of Biomedical and Health Informatics",
     year: "2026",
-    type: "Conference",
-    group: "Machine Learning",
-    authors: "Researcher Name, Collaborator A, Collaborator B",
-    summary:
-      "A framework for evaluating autonomous research agents with reproducible protocols and calibrated uncertainty.",
-    tags: ["agents", "evaluation", "reproducibility"],
-    image: "images/publication-placeholder.svg",
-    featured: true,
+    type: "Journal",
+    group: "Drug-Drug Interaction Prediction",
+    authors: "Li, Yu, Liu, Jia-Ming, Li, Yue-Chao, You, Zhu-Hong, Yuan, Yang, Mi, Cheng-Gang, Huang, Yu-An, Yi, Hai-Cheng",
     links: [
-      { label: "Paper", href: "https://example.com/paper.pdf" },
-      { label: "Code", href: "https://github.com/example/reliable-agents", stars: 128 },
-      { label: "Dataset", href: "https://example.com/dataset" },
-      { label: "Slides", href: "https://example.com/slides" },
-      { label: "BibTeX", href: "https://example.com/cite.bib" }
+      { label: "Paper", href: "https://ieeexplore.ieee.org/document/11701767" },
+      { label: "DOI", href: "https://doi.org/10.1109/JBHI.2026.3736395" }
     ]
   },
   {
-    title: "Interactive Interfaces for Model Debugging",
-    venue: "CHI 2026",
+    title: "KA-DDI: A knowledge-adaptive contrastive learning framework for drug-drug interaction prediction",
+    venue: "Expert Systems with Applications",
     year: "2026",
-    type: "Conference",
-    group: "Human-Computer Interaction",
-    authors: "Collaborator C, Researcher Name, Collaborator D",
+    type: "Journal",
+    group: "Drug-Drug Interaction Prediction",
+    authors: "Li, Yu, Liu, Jia-Ming, Li, Yue-Chao, You, Hai-Ru, You, Zhu-Hong, Yuan, Yang, Mi, Cheng-Gang",
     summary:
-      "A design and systems study of interfaces that help domain experts inspect, compare, and repair model behavior.",
-    tags: ["interfaces", "debugging", "human-ai"],
-    image: "images/publication-placeholder.svg",
-    featured: true,
+      "A knowledge-adaptive contrastive learning framework that refines biomedical knowledge graphs and combines molecular information with multi-task learning for robust drug-drug interaction prediction.",
+    tags: ["knowledge graph", "drug-drug interaction", "contrastive learning", "multi-task learning"],
     links: [
-      { label: "Paper", href: "https://example.com/chi-paper" },
-      { label: "Demo", href: "https://example.com/demo" },
-      { label: "Video", href: "https://example.com/video" }
+      { label: "Paper", href: "https://www.sciencedirect.com/science/article/pii/S0957417425046901" },
+      { label: "DOI", href: "https://doi.org/10.1016/j.eswa.2025.131076" }
     ]
   },
   {
-    title: "A Dataset Lifecycle for Auditable Research Artifacts",
-    venue: "NeurIPS Datasets and Benchmarks 2025",
+    title:
+      "Combining non-negative matrix factorization with graph Laplacian regularization for predicting drug-miRNA associations based on multi-source information fusion",
+    venue: "Frontiers in Pharmacology",
+    year: "2023",
+    type: "Journal",
+    group: "Drug-miRNA Association Prediction",
+    authors: "Wang, Mei-Neng, Li, Yu, Lei, Li-Lan, Ding, De-Wu, Xie, Xue-Jun"
+  },
+  {
+    title: "KGMAEDDI: Knowledge Graph and Molecular-Graph Masked Autoencoder for Drug-Drug Interaction Prediction",
+    venue: "IEEE Journal of Biomedical and Health Informatics",
     year: "2025",
-    type: "Dataset",
-    group: "Data Systems",
-    authors: "Researcher Name, Collaborator E, Collaborator F",
-    summary:
-      "A dataset release workflow with validation checks, provenance metadata, versioned changelogs, and model-facing cards.",
-    tags: ["datasets", "provenance", "benchmarks"],
-    links: [
-      { label: "Paper", href: "https://example.com/dataset-paper" },
-      { label: "Dataset", href: "https://example.com/dataset" },
-      { label: "Documentation", href: "https://example.com/docs" }
-    ]
+    type: "Journal",
+    group: "Drug-Drug Interaction Prediction",
+    authors: "Li, Yu, You, Zhu-Hong, Yang, Yuan, Mi, Cheng-gang"
   },
   {
-    title: "Measuring Longitudinal Change in Digital Archives",
-    venue: "DH 2025",
-    year: "2025",
-    type: "Conference",
-    group: "Digital Humanities",
-    authors: "Collaborator G, Researcher Name",
-    tags: ["archives", "measurement", "digital humanities"],
-    links: [
-      { label: "Paper", href: "https://example.com/archive-paper" },
-      { label: "Poster", href: "https://example.com/poster" }
-    ]
-  },
-  {
-    title: "Practical Notes on Academic Web Infrastructure",
-    venue: "Technical Report",
-    year: "2025",
-    type: "Report",
-    group: "Other",
-    authors: "Researcher Name",
-    tags: ["web", "tooling", "open source"],
-    links: [
-      { label: "Report", href: "https://example.com/report" },
-      { label: "Project", href: "https://example.com/project" }
-    ]
-  },
-  {
-    title: "Transparent Review Workflows for Open Research",
-    venue: "JOSS 2024",
+    title:
+      "MRGCDDI: multi-relation graph contrastive learning without data augmentation for drug-drug interaction events prediction",
+    venue: "IEEE Journal of Biomedical and Health Informatics",
     year: "2024",
     type: "Journal",
-    group: "Data Systems",
-    authors: "Researcher Name, Collaborator H",
-    tags: ["open science", "review", "software"],
-    links: [
-      { label: "Paper", href: "https://example.com/journal-paper" },
-      { label: "DOI", href: "https://doi.org/10.0000/example" },
-      { label: "Code", href: "https://github.com/example/review-workflows", stars: 42 }
-    ]
+    group: "Drug-Drug Interaction Prediction",
+    authors: "Li, Yu, Hou, Lin-Xuan, You, Zhu-Hong, Yuan, Yang, Mi, Cheng-Gang, Huang, Yu-an, Yi, Hai-Cheng"
+  },
+  {
+    title:
+      "Molgaecl: Molecular graph contrastive learning via graph auto-encoder pretraining and fine-tuning based on drug--drug interaction prediction",
+    venue: "Journal of Chemical Information and Modeling",
+    year: "2025",
+    type: "Journal",
+    group: "Drug-Drug Interaction Prediction",
+    authors:
+      "Li, Yu, Hou, Lin-Xuan, Yi, Hai-Cheng, You, Zhu-Hong, Chen, Shi-Hong, Zheng, Jia, Yuan, Yang, Mi, Cheng-Gang"
+  },
+  {
+    title:
+      "Attention-Based Learning for Predicting Drug-Drug Interactions in Knowledge Graph Embedding Based on Multisource Fusion Information",
+    venue: "International Journal of Intelligent Systems",
+    year: "2024",
+    type: "Journal",
+    group: "Drug-Drug Interaction Prediction",
+    authors:
+      "Li, Yu, You, Zhu-Hong, Wang, Shu-Min, Mi, Cheng-Gang, Wang, Mei-Neng, Huang, Yu-An, Yi, Hai-Cheng"
+  },
+  {
+    title:
+      "Integrated Knowledge Graph and Drug Molecular Graph Fusion via Adversarial Networks for Drug--Drug Interaction Prediction",
+    venue: "Journal of Chemical Information and Modeling",
+    year: "2024",
+    type: "Journal",
+    group: "Drug-Drug Interaction Prediction",
+    authors:
+      "Li, Yu, You, Zhu-Hong, Yuan, Yang, Mi, Cheng-Gang, Huang, Yu-An, Yi, Hai-Cheng, Hou, Lin-Xuan"
+  },
+  {
+    title: "Loanword identification in social media texts with extended code-switching datasets",
+    venue: "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    year: "2025",
+    type: "Journal",
+    group: "Natural Language Processing",
+    authors: "Mi, Chenggang, Xie, Shaoliang, Li, Yu, He, Zhenghan"
   }
 ];

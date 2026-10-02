@@ -1,18 +1,14 @@
 export const experience = [
   {
-    period: "2024 - Now",
-    title: "Assistant Professor",
-    place: "Example University",
-    href: "https://example.com/",
-    detail: "Leading a research group on trustworthy, interactive, and open computational systems.",
+    period: "2026.05 - Now",
+    title: "副研究员",
+    place: "天津大学",
     type: "Academic"
   },
   {
-    period: "2022 - 2023",
-    title: "Research Intern",
-    place: "Example Research Lab",
-    href: "https://example.com/",
-    detail: "Worked on tool-supported evaluation and dataset governance.",
-    type: "Research"
+    period: "2023.07 - 2026.01",
+    title: "博士后",
+    place: "西北工业大学",
+    type: "Academic"
   }
 ];

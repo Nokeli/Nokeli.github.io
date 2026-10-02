@@ -1,14 +1,14 @@
 export const services = [
   {
     category: "Conference Reviewer",
-    items: ["NeurIPS 2025, 2026", "ICML 2026", "CHI 2025, 2026", "ACL 2026", "UIST 2025"]
+    items: ["BIBM 2026", "ICIC 2026"]
   },
   {
     category: "Journal Reviewer",
-    items: ["JMLR", "TOCHI", "JOSS"]
+    items: ["JBHI", "PR", "JCIM", "BMC Bioinformatics",'Frontiers in Bioinformatics', 'Briefings in Bioinformatics', 'IEEE/ACM Transactions on Computational Biology and Bioinformatics']
   },
-  {
-    category: "Program Committee",
-    items: ["Open Science Workshop 2026", "Academic Software Summit 2025"]
-  }
+  // {
+  //   category: "Program Committee",
+  //   items: ["Open Science Workshop 2026", "Academic Software Summit 2025"]
+  // }
 ];
