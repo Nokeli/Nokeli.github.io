@@ -1,6 +1,6 @@
 export const siteMeta = {
-  brand: "Athena Personal Academic Page",
-  title: "Athena Personal Academic Page",
+  brand: "li's Personal Academic Page",
+  title: "li's Personal Academic Page",
   description:
     "Athena Personal Academic Page is a configurable academic website framework for researchers.",
   socialDescription:
@@ -20,11 +20,11 @@ export const sections = [
     nav: "Publications",
     note: "Use * in author strings for equal contribution."
   },
-  { id: "teaching", title: "Teaching", nav: "Teaching" },
-  { id: "talks", title: "Talks", nav: "Talks" },
+  // { id: "teaching", title: "Teaching", nav: "Teaching" },
+  // { id: "talks", title: "Talks", nav: "Talks" },
   { id: "education", title: "Education", nav: "Education" },
   { id: "experience", title: "Experience", nav: "Experience" },
-  { id: "awards", title: "Awards", nav: "Awards" },
+  // { id: "awards", title: "Awards", nav: "Awards" },
   { id: "service", title: "Academic Service", nav: "Service" },
   { id: "projects", title: "Projects", nav: "Projects" }
 ];

@@ -488,7 +488,7 @@ a:focus-visible {
   border-radius: var(--radius);
   background: var(--sidebar-bg);
   box-shadow: var(--shadow);
-  padding: 24px;
+  padding: 22px 24px 20px;
 }
 
 .sidebar-avatar-frame {
@@ -536,7 +536,7 @@ a:focus-visible {
 }
 
 .sidebar-identity {
-  margin-top: 20px;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -557,12 +557,28 @@ a:focus-visible {
   font-weight: 450;
 }
 
-.sidebar-identity span {
+.sidebar-identity span,
+.sidebar-organization {
   display: block;
-  margin-top: 8px;
   color: var(--muted);
   font-size: 0.88rem;
   line-height: 1.45;
+}
+
+.sidebar-role {
+  margin-top: 7px;
+}
+
+.sidebar-organization {
+  margin-top: 1px;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+
+.sidebar-organization:hover {
+  color: var(--blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .sidebar-meta {

@@ -190,7 +190,6 @@ function App() {
 
 function SidebarProfile() {
   const [detailsOpen, setDetailsOpen] = useState(false);
-  const organizationText = [profile.role, profile.organization ? `at ${profile.organization}` : ""].filter(Boolean).join(" ");
 
   return (
     <div className="sidebar-card">
@@ -214,7 +213,16 @@ function SidebarProfile() {
       <div className="sidebar-identity">
         <h1>{profile.name}</h1>
         {profile.nativeName ? <p>{profile.nativeName}</p> : null}
-        {organizationText ? <span>{organizationText}</span> : null}
+        {profile.role ? <span className="sidebar-role">{profile.role}</span> : null}
+        {profile.organization ? (
+          profile.organizationUrl ? (
+            <a className="sidebar-organization" href={profile.organizationUrl}>
+              {profile.organization}
+            </a>
+          ) : (
+            <span className="sidebar-organization">{profile.organization}</span>
+          )
+        ) : null}
       </div>
       <div className="sidebar-meta">
         {profile.location ? (
